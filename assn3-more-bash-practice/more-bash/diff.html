@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>CSE 142/143 Output Comparison Tool</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="version" content="Summer 2008" />
+		<meta name="author" content="Marty Stepp" />
+		<meta name="company" content="University of Washington" />
+		<meta name="description" content="A 'diff' tool to compare homework assignment output for correctness." />
+
+		<meta name="keywords" content="Java, diff, output, programming, Marty Stepp, University of Washington, Washington, UW, computer science, Building Java Programs" />
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="diff.css" />
+
+		<script type="text/javascript" src="scriptaculous/prototype.js"></script>
+		<script type="text/javascript" src="scriptaculous/scriptaculous.js"></script>
+		<script type="text/javascript" src="diff.js"></script>
+
+	</head>
+
+	<body>
+		<h1>
+			CSE 142/143 Output Comparison Tool
+		</h1>
+		
+		<noscript>
+			<p class="error">
+				It appears that you don't have JavaScript enabled in your web browser.  This page requires JavaScript to work.  Please check your browser settings.  (In Internet Explorer you may need to tell it to allow this page's &quot;Active Content&quot;.)
+			</p>
+		</noscript>
+		
+		<table class="maindifftable">
+			<tr>
+
+				<td>
+					Expected text: <span id="expectedchars">(0 characters selected)</span> <br />
+					
+					<select id="homework">
+						<option value="">(choose an assignment)</option>
+
+						<optgroup label="HW8 (Huffman Coding)">
+							<option value="homework/8/example_expected_output_compress.txt">log of execution, compressing example.txt</option>
+							<option value="homework/8/example.bytes">example.bytes</option>
+							<option value="homework/8/example_expected_output_decompress.txt">log of execution, decompressing example.huf</option>
+							
+							<option value="homework/8/short_expected_output_compress.txt">log of execution, compressing short.txt</option>
+							<option value="homework/8/short.bytes">short.bytes</option>
+							<option value="homework/8/short_expected_output_decompress.txt">log of execution, decompressing short.huf</option>
+							
+							<option value="homework/8/hamlet_expected_output_compress.txt">log of execution, compressing hamlet.txt</option>
+							<option value="homework/8/hamlet.bytes">hamlet.bytes</option>
+							<option value="homework/8/hamlet_expected_output_decompress.txt">log of execution, decompressing hamlet.huf</option>
+						</optgroup>
+						
+						<optgroup label="HW7 (20 Questions)">
+							<option value="homework/7/expected_output_1.txt">sample output 1, question1.txt</option>
+							<option value="homework/7/expected_output_2.txt">sample output 2, question2.txt</option>
+							<option value="homework/7/expected_output_3.txt">sample output 3, animals.txt</option>
+						</optgroup>
+						
+						<optgroup label="HW6 (Anagrams)">
+							<option value="homework/6/expected_output_1.txt">sample output 1, dict1.txt</option>
+							<option value="homework/6/expected_output_2.txt">sample output 2, dict2.txt</option>
+							<option value="homework/6/expected_output_3.txt">sample output 3, dict3.txt</option>
+						</optgroup>
+						
+						<optgroup label="HW5 (Grammar Solver)">
+							<option value="homework/5/expected_output_1.txt">sample output 1, sentence.txt</option>
+							<option value="homework/5/expected_output_2.txt">sample output 2, sentence2.txt</option>
+							<option value="homework/5/expected_output_3.txt">sample output 3, sentence.txt (with a single Random object, seed of 42)</option>
+							<option value="homework/5/expected_output_4.txt">sample output 4, sentence2.txt (with a single Random object, seed of 42)</option>
+						</optgroup>
+
+						<optgroup label="HW4 (Assassin)">
+							<option value="homework/4/expected_output.txt">sample output (set RANDOM to false in AssassinMain to match)</option>
+						</optgroup>
+
+						<optgroup label="HW3 (Stable Marriage)">
+							<option value="homework/3/expected_output_seinfeld.txt">seinfeld.dat</option>
+							<option value="homework/3/expected_output_friends.txt">friends.dat</option>
+							<option value="homework/3/expected_output_tas.txt">tas.dat</option>
+						</optgroup>
+
+						<optgroup label="HW2 (HTML Validator)">
+							<option value="homework/2/SimpleTest_expected_output.txt">SimpleTest</option>
+							<option value="homework/2/expected_output_1.txt">test1.html</option>
+							<option value="homework/2/expected_output_2.txt">test2.html</option>
+							<option value="homework/2/expected_output_3.txt">test3.html</option>
+							<option value="homework/2/expected_output_4.txt">test4.html</option>
+							<option value="homework/2/expected_output_5.txt">test5.html</option>
+							<option value="homework/2/expected_output_6.txt">test6.html</option>
+							<option value="homework/2/expected_output_7.txt">test7.html</option>
+							<option value="homework/2/expected_output_8.txt">test8.html</option>
+						</optgroup>
+					</select>
+					
+					<span id="loading" style="display: none">
+						<img src="images/progress.gif" alt="loading..." />
+						Downloading...
+					</span>
+				</td>
+
+				<td>
+
+					Actual text: <span id="actualchars">(0 characters selected)</span><br />
+					<em>(paste your program's output below)</em>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<textarea class="expected" id="expectedtext" cols="50" rows="20" wrap="off"></textarea>
+
+				</td>
+		
+				<td>
+		
+					<textarea class="actual" id="actualtext" cols="50" rows="20" wrap="off"></textarea>
+				</td>
+			</tr>
+		
+			<tr>
+				<td colspan="2" style="text-align: center">
+					<div id="linenumbersarea">
+
+						Line numbers:
+						<button id="add">Add</button>
+						<button id="remove">Remove</button>
+					</div>
+					
+					<div id="stripwhitespacearea">
+<!--
+						Creative output?
+						<label>
+							<input type="checkbox" id="creativestart" />
+							at start
+						</label>
+						<label>
+							<input type="checkbox" id="creativeend" />
+							at end
+						</label> <br />
+-->
+
+						<label>
+							<input type="checkbox" id="stripwhitespace" />
+
+							Ignore spaces at start of lines
+						</label>
+					</div>
+
+					<div id="comparearea">
+						<button id="compare">Compare</button>
+					</div>
+				</td>
+			</tr>
+
+			
+			<tr>
+				<td colspan="2">
+					<div id="diffarea" style="display: none">
+						<h2 id="differencesheader">Differences:</h2>
+						<pre id="result"></pre>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+		
+		<!--
+		<p><i>For Homework 5 (Guess2D), since the program uses random numbers, you may not be able to reproduce the exact logs shown.  They are posted mainly as examples to follow for formatting purposes.  If you do want to match them exactly, you can "seed" your Random number generator by passing an int to its constructor, which causes it to produce the same sequence of numbers every time.  (This is good for testing, but not good for the final game, because it takes away the true randomness.)  The int to pass for each case is the following:</i></p>
+		
+		<ul>
+		<li>Test #1: &nbsp;&nbsp;&nbsp; <tt>&nbsp;&nbsp;42</tt> &nbsp;&nbsp;&nbsp;&nbsp; e.g. &nbsp;&nbsp;&nbsp;&nbsp; <tt>Random r = new Random(42);</tt><br>
+		(also use seed of 42 for test w/ max of (5, 5) and max of (100, 100)
+		<li>Test #2: &nbsp;&nbsp;&nbsp; <tt>&nbsp;420</tt> &nbsp;&nbsp;&nbsp;&nbsp; e.g. &nbsp;&nbsp;&nbsp;&nbsp; <tt>Random r = new Random(420);</tt>
+		<li>Test #3: &nbsp;&nbsp;&nbsp; <tt>4200</tt> &nbsp;&nbsp;&nbsp;&nbsp; e.g. &nbsp;&nbsp;&nbsp;&nbsp; <tt>Random r = new Random(4200);</tt>
+		</ul>
+		-->
+		
+		<h2>
+			Instructions and Disclaimer:
+		</h2>
+		
+		<ul>
+			<li>Choose the assignment from the drop-down box on the left.  (Its expected output should appear.)</li>
+			<li>Run your program and paste its output on the right.</li>
+
+			<li>Press Compare.  Any differences will be shown.</li>
+		</ul>
+		
+		<p>
+			Any comparison lines that begin with a <code>&lt;</code> are those that occur in the expected output but are not found in the same place in your output.  Lines that begin with a <code>&gt;</code> are those that occur in your output but are not found in the same place in the expected output.
+		</p>
+		
+		<p>
+			Many assignments have some sort of creative output.  In the expected output, this will be signified by text such as, <strong><code>&lt;&lt; your verse goes here &gt;&gt;</code></strong> .  You are not supposed to literally print this output from your program; you are supposed to print your own custom message in its place.  If this tool shows your custom message as being unmatched, this is expected.
+		</p>
+		
+		<p>
+			Assignments that use random numbers may be impossible to match exactly in output unless you use a "seed" to your random number generator.  See the assignment's FAQ page for more details about how to do this.
+		</p>
+
+		
+		<p>
+			NOTE: Achieving &quot;No differences found&quot; on this page does not guarantee that you will earn any particular grade on an assignment.
+		</p>
+
+	</body>
+</html>

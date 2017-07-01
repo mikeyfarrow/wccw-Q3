@@ -1,0 +1,157 @@
+<html>
+	<head>
+		<title>Indenter</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="indent.css" />
+		<script language="javascript" src="indent.js"></script>
+	</head>
+
+	<body>
+		<h3>CSE 142/143 Indenter Tool</h3>
+		
+		<noscript>
+			<p class="error">It appears that you don't have JavaScript enabled in your web browser.  This page requires JavaScript to work.  Please check your browser settings.  (In Internet Explorer you may need to tell it to allow this page's "Active Content".)</p>
+		</noscript>
+		
+		<p>
+			<em>(paste your program's source code below)</em>
+		</p>
+
+		<div id="sourcecodearea">
+<!--
+This is some test text I can use to see whether the indenter is working.
+
+function indent(event) {
+	if (foo) {
+		// tricky
+		for (var i = 0; i < spaces; i++)
+			foo();
+		dontIndentMe();
+		
+		// nested ifs
+		// they can be tricky
+		if (condition) {
+			statements;
+		} else if (condition2) {
+			statements;
+		} else if (condition3) {
+			statements;
+		} else {
+			statements;
+		}
+		
+		
+		if (foo)
+			bar();
+		else
+			baz();
+		dontIndentMe();
+		meEither();
+			
+		while (true)
+			booyah();
+		dontIndentMe();
+		meEither();
+		
+		// mix of braces and non braces
+		if (foo) {
+			bar;
+		} else
+			baz;
+		
+		if (foo)
+			bar;
+		else {
+			baz;
+		}
+		
+		// really tricky
+		if (foo)
+			if (bar)
+				baz();
+			else
+				mumble();
+		else
+			quux();
+		dontIndentMe();
+
+		// one-line if on same line
+		if (foo) bar();
+		else if (mumble) baz();
+		else quux();
+		
+		// one-line with braces
+		if (foo) { bar(); }
+		else if (baz) { quux(); }
+		else { mumble(); }
+		dontIndentMe();
+		dontIndentMeEither();
+	}
+}
+-->
+			<textarea id="sourcecode" cols="90" rows="20" wrap="off"></textarea>
+		</div>
+		
+		<div id="buttonsarea">
+			<button id="fixindentation">Fix Indentation</button>
+		</div>
+
+		<div id="indentbyarea">
+			<span id="indentby">
+				Indent by: 
+				<label>
+					<input id="indentbytabs" name="indentby" type="radio" /> Tabs
+				</label>
+
+				<label>
+					<input id="indentbyspaces" name="indentby" type="radio" checked="checked" /> Spaces:
+				</label>
+
+				<input id="spaces" type="text" size="1" maxlength="2" value="4" />
+			</span>
+		</div>
+		
+		<div id="linecountarea">
+			<strong id="linecount">0</strong> lines;
+			<strong id="substantivelinecount">0</strong> substantive lines <br />
+			(ignoring blank/comment lines)
+		</div>
+		
+		
+		<h3 style="margin-top: 3em">Instructions and Disclaimer:</h3>
+		
+<!--
+		<p>
+			How to use this comparison tool:
+		</p>
+		
+		<ul>
+			<li>Choose the assignment from the drop-down box on the left.  (Its expected output should appear.)</li>
+			<li>Run your program and paste its output on the right.</li>
+			<li>Press Compare.  Any differences will be shown.</li>
+		</ul>
+		
+		<p>
+			Any comparison lines that begin with a <code>&lt;</code> are those that occur in the expected output but are not found in the same place in your output.  Lines that begin with a <code>&gt;</code> are those that occur in your output but are not found in the same place in the expected output.
+		</p>
+		
+		<p>
+			Many assignments have some sort of creative output.  In the expected output, this will be signified by text such as, <strong><code>&lt;&lt; your seventh verse goes here &gt;&gt;</code></strong> .  You are not supposed to literally print this output from your program; you are supposed to print your own custom message in its place.  If this tool shows your custom message as being unmatched, this is expected.
+		</p>
+-->
+		
+		<p>
+			NOTE: Use this tool at your own risk.  We do not guarantee that using this tool will cause you to avoid losing points for indentation on an assignment.  We are also not responsible if it messes up your indentation, or even breaks your program.  Always back up your code before using this tool, and recompile and re-run your program after using this tool to be certain it still works.  The indenter works for most code but is not good at handling nested ifs/loops without curly-braces.
+		</p>
+		
+		<pre id="dumptarget"></pre>
+
+		<!-- Google Analytics -->
+		<script type="text/javascript" src="http://www.google-analytics.com/urchin.js">
+		</script>
+		<script type="text/javascript">
+		_uacct = "UA-2729135-1";
+		urchinTracker();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+#comparearea {
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+#compare {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+del, ins {
+    color: #990000;
+    text-decoration: none;
+}
+
+#diffarea {
+	border: 2px solid gray;
+	padding: 1em;
+}
+
+#differencesheader {
+	margin: 0em;
+	margin-top: 8px;
+}
+
+.expected, del {
+    background-color: #EEFFEE;
+}
+
+.actual, ins {
+    background-color: #FFEEEE;
+}
+
+#expectedchars, #actualchars {
+	color: #555555;
+	font-size: small;
+	padding-left: 2em;
+}
+
+h1 {
+	margin: 0.4em;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 1.5em;
+}
+
+#linenumbersarea {
+	float: left;
+	text-align: left;
+	width: 33%;
+}
+
+.maindifftable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.maindifftable td {
+	border: none;
+	line-height: 1.5em;
+	margin: 5px;
+	width: 50%;
+	padding: 5px;
+	vertical-align: bottom;
+}
+
+#result {
+	margin: 0em;
+	margin-top: 8px;
+}
+
+#stripwhitespacearea {
+	float: right;
+	text-align: left;
+}
+
+table {
+	font-family: inherit;
+}
+
+textarea {
+	font-family: monospace;
+	width: 100%;
+}

@@ -1,0 +1,16 @@
+body {
+	font-size: 12pt;
+}
+
+h2 {
+	margin-top: 3em;
+}
+
+ol li, ol > li {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+ul {
+	margin-bottom: 1em;
+}

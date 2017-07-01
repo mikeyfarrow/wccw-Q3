@@ -1,0 +1,30 @@
+#sourcecodearea, #buttonsarea, #indentbyarea, #linecountarea {
+	text-align: center;
+}
+
+#buttonsarea {
+	margin: 0.5em;
+}
+
+#fixindentation {
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0.5em 1em;
+}
+
+#linecount, #substantivelinecount {
+	color: #000066;
+	font-size: larger;
+}
+
+#linecountarea {
+	margin-top: 1em;
+}
+
+#sourcecode {
+	width: 95%;
+}
+
+#spaces {
+	width: 1.5em;
+}

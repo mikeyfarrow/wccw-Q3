@@ -1,0 +1,13 @@
+#More Bash Solution
+
+1. ``ls -l``
+2. N/A (mistake in instructions)
+3. ``cp numbers.txt java/`` or ``cp numbers.txt java/numbers.txt``
+4. ``mv Starr.java Ringo.java``
+5. ``rm diff*``
+6. touch
+7. ``ls *.html *.css``
+8. ``cp *.txt website/``
+9. ``cat verse*.txt`` or ``cat song*.txt``
+10. ``tail -n 5 animals.txt``
+11. ``wc -l animals.txt`` or ``wc animals.txt``

@@ -1,0 +1,38 @@
+Navigating the Filesystem
+----------------------------
+
+1. output of ``pwd``
+2. output of ``ls``
+3. ``ls -alh`` gives you hidden files and more file info
+4. output of ``ls /``
+5. first run ``cd /`` and then the output of ``pwd`` (should be same as 1)
+6. first ``cd ~`` and then ``pwd`` to get contents of W: drive
+7. 3 files with *.demo
+8. after ``cd ..`` should be in parent of challenge_files
+9. Up arrow cycles through history
+10. History keeps going with up arrow
+11. All the previous commands you wrote
+
+Observing the System
+--------------------------
+
+1. student's username
+2. No other users
+1. List of running programs
+
+Finding and Viewing Files
+--------------------------
+1. 2 files with *credit*
+2. 1-15-2015
+3. challenge_files/tmp/modi_laboriosam.txt
+4. 2 matches:
+ 	Britt-Erdman.user:O'Harachester, WA 37261
+Lissie-Strosin.user:Jewessfurt, WA 00816-7241
+5. Found Waldo here:
+	./serial-numbers/eaque_molestiae.txt:
+		Ut est maiores quia autem. Nisi modi Waldo sed corporis sit explicabo ut est. Et est placeat ea sunt sunt consectetur sunt incidunt. Explicabo vel esse blanditiis dolorem culpa non quia.
+
+Pipes and Connecting
+----------------------
+1. files.txt has the contents of challenge_files directory
+2. Piping ls into less lets you read at your own pace
