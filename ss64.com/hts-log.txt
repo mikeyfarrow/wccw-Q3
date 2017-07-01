@@ -1,0 +1,74 @@
+HTTrack3.48-22+htsswf+htsjava launched on Tue, 04 Apr 2017 16:54:59 at https://ss64.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Pxs2u1%s%uN100I0%I0p7DaK0H0%kf2A250000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F  -%l "en, *" https://ss64.com/ -O1 "D:\xampp-5.6.24\htdocs\ss64-bash\ss64-bash" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:55:22	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 6014): https://ss64.com/osx/dscacheutil.html
+16:57:39	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 3662): https://ss64.com/nt/mapisend.html
+17:04:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://ss64.com/bash/top.html (from https://ss64.com/bash/)
+17:15:30	Warning: 	Moved Permanently for https://ss64.com/passwords/
+17:15:30	Warning: 	File has moved from https://ss64.com/passwords/ to https://ss64.com/pass/pass.html
+17:20:32	Warning: 	Moved Permanently for https://ss64.com/css/
+17:20:32	Warning: 	File has moved from https://ss64.com/css/ to https://emw3.com/css/
+17:20:35	Error: 	"Not Found" (404) at link https://ss64.com/pass/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://ss64.com/pass/pass.html)
+17:20:40	Error: 	"Not Found" (404) at link https://ss64.com/vb/cscript own (from https://ss64.com/vb/syntax-args.html)
+17:21:16	Error: 	"Not Found" (404) at link https://ss64.com/pass/iphone/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://ss64.com/pass/iphone/)
+17:21:36	Warning: 	HTML file (4921 bytes) retransferred due to lack of cache: https://ss64.com/docs/bytes.html
+17:21:36	Warning: 	HTML file (12938 bytes) retransferred due to lack of cache: https://ss64.com/pass/pass.html
+17:21:37	Warning: 	HTML file (3886 bytes) retransferred due to lack of cache: https://ss64.com/pass/command-line.html
+17:21:38	Warning: 	HTML file (8830 bytes) retransferred due to lack of cache: https://ss64.com/links/
+17:21:38	Warning: 	HTML file (5604 bytes) retransferred due to lack of cache: https://ss64.com/privacy.html
+17:21:44	Warning: 	HTML file (7435 bytes) retransferred due to lack of cache: https://ss64.com/osx/syntax-args.html
+17:21:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif
+17:21:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.paypal.com/en_GB/i/scr/pixel.gif
+17:21:45	Warning: 	HTML file (9734 bytes) retransferred due to lack of cache: https://ss64.com/osx/dig-queryopt.html
+17:21:46	Warning: 	HTML file (19645 bytes) retransferred due to lack of cache: https://ss64.com/nt/shell.html
+17:21:46	Warning: 	HTML file (6730 bytes) retransferred due to lack of cache: https://ss64.com/nt/syntax-brackets.html
+17:21:48	Warning: 	HTML file (3521 bytes) retransferred due to lack of cache: https://ss64.com/nt/superhidden.html
+17:21:48	Warning: 	HTML file (1973 bytes) retransferred due to lack of cache: https://ss64.com/colour.html
+17:21:49	Warning: 	HTML file (3885 bytes) retransferred due to lack of cache: https://ss64.com/nt/dsadd-contact.html
+17:21:49	Warning: 	HTML file (9827 bytes) retransferred due to lack of cache: https://ss64.com/nt/findstr-escapes.html
+17:21:50	Warning: 	HTML file (5292 bytes) retransferred due to lack of cache: https://ss64.com/nt/iexpress-sed.html
+17:21:51	Warning: 	HTML file (6861 bytes) retransferred due to lack of cache: https://ss64.com/nt/chcp.html
+17:21:52	Warning: 	HTML file (4568 bytes) retransferred due to lack of cache: https://ss64.com/nt/net-config.html
+17:21:53	Warning: 	HTML file (4817 bytes) retransferred due to lack of cache: https://ss64.com/ps/syntax-redirection.html
+17:21:53	Warning: 	HTML file (10331 bytes) retransferred due to lack of cache: https://ss64.com/ps/syntax-eventids.html
+17:21:54	Warning: 	HTML file (3819 bytes) retransferred due to lack of cache: https://ss64.com/nt/winrm-enumerate.html
+17:21:55	Warning: 	HTML file (5116 bytes) retransferred due to lack of cache: https://ss64.com/nt/caspol.html
+17:21:55	Warning: 	HTML file (5437 bytes) retransferred due to lack of cache: https://ss64.com/ps/syntax-objects.html
+17:21:56	Warning: 	HTML file (8011 bytes) retransferred due to lack of cache: https://ss64.com/ps/syntax-scopes.html
+17:21:57	Warning: 	HTML file (3592 bytes) retransferred due to lack of cache: https://ss64.com/ps/syntax-inventory.html
+17:21:57	Warning: 	HTML file (2688 bytes) retransferred due to lack of cache: https://ss64.com/vb/syntax-run.html
+17:21:58	Warning: 	HTML file (6211 bytes) retransferred due to lack of cache: https://ss64.com/access/syntax-references.html
+17:21:59	Warning: 	HTML file (2710 bytes) retransferred due to lack of cache: https://ss64.com/access/acformopendatamode.html
+17:22:00	Warning: 	HTML file (3697 bytes) retransferred due to lack of cache: https://ss64.com/access/acobjecttype.html
+17:22:00	Warning: 	HTML file (2287 bytes) retransferred due to lack of cache: https://ss64.com/access/stringexpression.html
+17:22:01	Warning: 	HTML file (41578 bytes) retransferred due to lack of cache: https://ss64.com/access/syntax-runcommands.html
+17:22:02	Warning: 	HTML file (3172 bytes) retransferred due to lack of cache: https://ss64.com/access/acfirstweekofyear.html
+17:22:02	Warning: 	HTML file (2598 bytes) retransferred due to lack of cache: https://ss64.com/access/accompare.html
+17:22:03	Warning: 	HTML file (5812 bytes) retransferred due to lack of cache: https://ss64.com/access/acmsgboxstyle.html
+17:22:03	Warning: 	HTML file (3147 bytes) retransferred due to lack of cache: https://ss64.com/access/acformview.html
+17:22:03	Warning: 	HTML file (4602 bytes) retransferred due to lack of cache: https://ss64.com/vb/syntax-args.html
+17:22:03	Warning: 	HTML file (3082 bytes) retransferred due to lack of cache: https://ss64.com/links/orasqllinks.html
+17:22:04	Warning: 	HTML file (9070 bytes) retransferred due to lack of cache: https://ss64.com/ora/syntax-tnsnames.html
+17:22:05	Warning: 	HTML file (5069 bytes) retransferred due to lack of cache: https://ss64.com/sql/syntax-field-sizes.html
+17:22:09	Warning: 	HTML file (62836 bytes) retransferred due to lack of cache: https://ss64.com/links/amazon.html
+17:22:10	Warning: 	HTML file (2193 bytes) retransferred due to lack of cache: https://ss64.com/nt/nul.html
+17:22:10	Warning: 	HTML file (20556 bytes) retransferred due to lack of cache: https://ss64.com/nt/index.html
+17:22:10	Warning: 	HTML file (11463 bytes) retransferred due to lack of cache: https://ss64.com/nt/syntax-reghacks-w7.html
+17:22:11	Warning: 	HTML file (3621 bytes) retransferred due to lack of cache: https://ss64.com/ps/path-defaults.html
+17:22:12	Warning: 	HTML file (10053 bytes) retransferred due to lack of cache: https://ss64.com/access/syntax-naming-variables.html
+17:22:13	Error: 	"Not Found" (404) at link https://ss64.com/vb/cscript own (from https://ss64.com/vb/syntax-args.html)
+17:22:13	Warning: 	HTML file (9168 bytes) retransferred due to lack of cache: https://ss64.com/ora/index.html
+17:22:13	Warning: 	HTML file (17262 bytes) retransferred due to lack of cache: https://ss64.com/orav/
+17:22:14	Warning: 	HTML file (2409 bytes) retransferred due to lack of cache: https://ss64.com/orav/V$CACHE.html
+17:22:14	Warning: 	HTML file (2577 bytes) retransferred due to lack of cache: https://ss64.com/ora/clause_drop.html
+17:22:15	Warning: 	HTML file (5563 bytes) retransferred due to lack of cache: https://ss64.com/sql/syntax-dimdates-create.html
+17:22:16	Error: 	"Not Found" (404) at link https://ss64.com/pass/iphone/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://ss64.com/pass/iphone/)
+17:22:16	Warning: 	Warning: store application/octet-stream without scan: D:/xampp-5.6.24/htdocs/ss64-bash/ss64-bash/pass/mobile/fonts/glyphicons-halflings-regular.svg
+
+HTTrack Website Copier/3.48-22 mirror complete in 27 minutes 17 seconds : 3748 links scanned, 3793 files written (19445720 bytes overall), 3508 files updated [19070458 bytes received at 11649 bytes/sec], 23.0 requests per connection
+(5 errors, 58 warnings, 0 messages)

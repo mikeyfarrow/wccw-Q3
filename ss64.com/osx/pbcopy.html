@@ -1,0 +1,52 @@
+<!doctype html><html lang="en">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link rel="STYLESHEET" href="../main.css" type="text/css">
+<title>pbcopy macOS Man Page | SS64.com</title>
+</head><body><!-- #BeginLibraryItem "/Library/head_osx.lbi" --><div id="tnav"><ul>
+<li class="tbtn"><a href="../index-2.html"> ( &nbsp;SS64 &nbsp;)</a></li>
+<li class="tbtn"><a href="index.html">macOS</a></li>
+<li class="tbtn"><a href="syntax.html">Syntax</a></li>
+<li><div id="search"><form action="../external.html?link=https://www.google.com/search" method="get">
+<button tabindex="-1" type="submit" id="q-img"></button>
+<input type="text" name="q" id="q" size="27" maxlength="255">
+<input type="hidden" name="sitesearch" value="ss64.com/osx/"></form></div></li>
+</ul></div><!-- #EndLibraryItem --><h1>pbcopy</h1> 
+<p>Copy data  from STDIN to the clipboard.</p>
+<pre>Syntax
+      pbcopy  [-<i>pboard</i> {<u>general</u> | ruler | find | font}]
+
+Key
+   -pboard  Specify a pasteboard to copy to.
+            By default the general pasteboard.</pre>
+<p>Takes the standard input and places it in the specified pasteboard. If no pasteboard is specified, the general pasteboard will be used by default. </p>
+<p>The input is placed in the pasteboard as ASCII data unless it begins with the Encapsulated PostScript (EPS) file header or the Rich Text Format (RTF) file header, in which case it is placed in
+the pasteboard as one of those data types.</p>
+<p><b>Examples</b></p>
+<p># Copy a list of files in your home directory to the macOS clipboard:<br>
+<span class="code">$ ls ~ | pbcopy</span></p>
+<p># Copy the contents of a file to the clipboard:<br>
+<span class="code">$ pbcopy < cookies.txt</span><span class="code"></span></p>
+<p># Copy part of a file to the clipboard:<br>
+<span class="code">$ grep 'ip address' serverlist.txt | pbcopy</span><br>
+<br>
+<i class="quote">"God shows his contempt for wealth by the kind of person he selects to receive it&quot; ~ Austin O'Malley</i></p>
+<p><b>Related:</b></p>
+<p>
+<a href="../external.html?link=https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/pbcopy.1.html">pbcopy man page</a> - Apple.com<br>
+<a href="pbpaste.html">pbpaste</a> Paste data from the Clipboard<br>
+<a href="printenv.html">printenv</a> - Print environment variables</p><!-- #BeginLibraryItem "/Library/foot_osx.lbi" --><p><script async src="../pagead/js/f.txt"></script>
+<!-- OSX300 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-6140977852749469"
+     data-ad-slot="1823340303"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+<hr>
+<div id=bl class="footer">&nbsp;</div>
+<div id=br class="footer, tagline">Copyright &copy; <a href="../index-2.html">SS64.com</a> 1999-2017<br>
+Some rights reserved</div><!-- #EndLibraryItem --></body>
+</html>
