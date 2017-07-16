@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Server PDF</title>
+	<script src='http://unloop.edu/jquery-3.1.1.js'></script>
+	<script>
+	$(document).ready(function() {
+	$.get('http://localhost:3030/async', function(data) {
+		console.log('Async: ');
+	});
+	$.get('http://localhost:3030/sync', function(data) {
+		console.log('Sync: ');
+	});
+	$.get('http://localhost:3030/stream', function(data) {
+		console.log('Stream: ');
+	});
+});
+	</script>
+</head>
+<body>
+	<h1>Iframe</h1>
+	<!-- <h2>Async</h2> -->
+	<!-- <iframe src="http://localhost:3030/async"></iframe> -->
+	<!-- <h2>Sync</h2> -->
+	<!-- <iframe src="http://localhost:3030/sync"></iframe> -->
+	<!-- <h2>Stream</h2> -->
+	<!-- <iframe src="http://localhost:3030/stream"></iframe> -->
+</body>
+</html>

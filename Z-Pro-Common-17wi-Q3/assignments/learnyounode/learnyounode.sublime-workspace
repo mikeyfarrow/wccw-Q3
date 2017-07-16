@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"localp",
+				"localParsedWithQuery"
+			],
+			[
+				"re",
+				"re	require"
+			],
+			[
+				"N",
+				"Node.js_in_Action2.pdf"
+			],
+			[
+				"get",
+				"get	$.get()"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"packa",
+				"packageDest"
+			],
+			[
+				"pric",
+				"priceToday"
+			],
+			[
+				"readfi",
+				"readFileSync	(read-file.js)"
+			],
+			[
+				"req",
+				"requestNode"
+			],
+			[
+				"que",
+				"questionDiv"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"prep",
+				"prependTo	.prependTo()"
+			],
+			[
+				"list-ste",
+				"list-style-type"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"image",
+				"image-guess.js"
+			],
+			[
+				"c",
+				"creditCard.js"
+			],
+			[
+				"message",
+				"messagePara"
+			],
+			[
+				"fri",
+				"fri.solutions.js"
+			],
+			[
+				"draw",
+				"drawDiamond"
+			],
+			[
+				"fi",
+				"figure.js"
+			],
+			[
+				"lo",
+				"lower-alpha"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"lists",
+				"list-style-type"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"figu",
+				"figureTag"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "13-http-json-api-server.js",
+			"settings":
+			{
+				"buffer_size": 984,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Verify (learnyounode)",
+	"command_palette":
+	{
+		"height": 152.0,
+		"selected_items":
+		[
+			[
+				"left",
+				"Browse Mode: Left Sidebar"
+			],
+			[
+				"brow",
+				"Browse Mode: Left Sidebar"
+			],
+			[
+				"brows",
+				"Browse Mode: Left Sidebar"
+			],
+			[
+				"browser",
+				"Browse Mode: Left Sidebar"
+			],
+			[
+				"fileb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"file",
+				"Browse Mode: Current file or project"
+			],
+			[
+				"filebr",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"file br",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snipp",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Alana Andres_643_assignsubmission_file_/app.js",
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Danielle Wentland_645_assignsubmission_file_/app.js",
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Delora Bostic_641_assignsubmission_file_/app.js",
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Jennifer Craven_638_assignsubmission_file_/app.js",
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Jessi Lestat_644_assignsubmission_file_/app.js",
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Kaili Lutes_640_assignsubmission_file_/app.js",
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Rebecca McCarthy_642_assignsubmission_file_/app.js",
+		"/M/grading/Q3 Adv. Web Dev.-Project 1 Visit Counter-610/Yvonne Wood_646_assignsubmission_file_/app.js",
+		"/Z/demos/Q3/countdown-json-api/countdown-server.js",
+		"/S/Pro99/agenda-1-27.txt",
+		"/M/grading/Q3 Adv. Web Dev.-Map, Filter, forEach-612/Danielle Wentland_656_assignsubmission_file_/map-filter-forEach.js",
+		"/M/grading/Q3 Adv. Web Dev.-Map, Filter, forEach-612/Delora Bostic_649_assignsubmission_file_/map-filter-forEach.js",
+		"/M/grading/Q3 Adv. Web Dev.-Map, Filter, forEach-612/Jennifer Craven_655_assignsubmission_file_/map-filter-forEach.js",
+		"/M/grading/Q3 Adv. Web Dev.-Map, Filter, forEach-612/Jessi Lestat_652_assignsubmission_file_/map-filter-forEach.js",
+		"/M/grading/Q3 Adv. Web Dev.-Map, Filter, forEach-612/Kaili Lutes_648_assignsubmission_file_/map-filter-forEach.js",
+		"/M/grading/Q3 Adv. Web Dev.-Map, Filter, forEach-612/Rebecca McCarthy_651_assignsubmission_file_/map-filter-forEach.js",
+		"/M/grading/Q3 Adv. Web Dev.-Map, Filter, forEach-612/Yvonne Wood_654_assignsubmission_file_/map-filter-forEach.js",
+		"/Z/demos/Q3/url-library.js",
+		"/Z/demos/Q3/countdown-json-api/README.txt",
+		"/S/Pro99/http-json-api.js",
+		"/S/Pro99/learnyounode-instr.txt",
+		"/Z/demos/Q3/english-words-json-api/words-api.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/http-json-api-server.html",
+		"/M/curriculum-development/17wi-cohort1-q3/nodeguide.com/guide/beginner.pdc",
+		"/M/xampp-5.6.24/htdocs/english-words.js",
+		"/Z/demos/Q3/words.json",
+		"/Z/demos/Q3/english-dictionary-api-server/data/webster.json",
+		"/Z/demos/Q3/english-dictionary-api-server/dictionary-server.js",
+		"/Z/assignments/learnyounode/13-http-json-api-server.js",
+		"/Z/learn-you-node.bat",
+		"/Z/demos/Q3/file-io-practice/file-io-practice.js",
+		"/Z/demos/Q3/summarize-books/summarize.js",
+		"/Z/demos/Q3/read-and-write-file/read-and-write.js",
+		"/Z/demos/Q3/read-and-write-file/read-and-write-2.js",
+		"/Z/demos/Q3/read-a-file/read-file.js",
+		"/Z/demos/Q3/pets-csv/pets-csv-to-json.js",
+		"/Z/demos/Q3/tue-jan-17/map-filter-forEach.js",
+		"/S/Pro99/hello.js",
+		"/C/Users/farrowm/Documents/sync-io.js",
+		"/Z/demos/Q3/node-visit-count/counter.txt",
+		"/Z/demos/Q3/node-visit-count/app.js",
+		"/Z/demos/Q3/node-visit-count/test-const.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/node_modules/javascripting/bin/javascripting",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/node_modules/javascripting/menu.json",
+		"/Z/npm/batch-scripts/verify-any.bat",
+		"/Z/npm/batch-scripts/verify-user.bat",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/01-hello-world.js",
+		"/Z/assignments/learnyounode/01-hello-world.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/02-baby-steps.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/13-http-json-api-server.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/11-http-file-server.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/05-http-client.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/04-modular.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/03-filtered-ls.js",
+		"/Z/demos/Q3/stream-vs-sync-vs-async/server.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/learnyounode/06-http-collect.js",
+		"/Z/demos/Q3/stream-vs-sync-vs-async/test.html",
+		"/C/Users/farrowm/AppData/Local/Temp/~DFCCC2077A20DB660E.TMP",
+		"/Z/demos/Q3/stream-vs-sync-vs-async/make-requests.js",
+		"/Z/demos/Q3/stream-vs-sync-vs-async/Node.js_in_Action1.pdf",
+		"/Z/demos/Q3/express-get-post/send-requests.js",
+		"/Z/demos/Q3/stream-vs-non-stream/http-file-server.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/promise.md",
+		"/Z/demos/Q3/express-get-post/public/send-requests.js",
+		"/Z/demos/Q3/express-get-post/server.js",
+		"/M/curriculum-development/postable-api/index.js",
+		"/Z/demos/Q3/express-get-post/test.html",
+		"/M/Add an external CSS stylesheet to your travel page",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/student-env/11-http-file-server.js",
+		"/Z/demos/Q3/express-web-server/server.js",
+		"//Pro.edu/SYSVOL/tdp.edu/scripts/protadrivemap - Copy.bat",
+		"/M/install-sublime-packages/install-sublime-packages.bat",
+		"//Pro.edu/SYSVOL/tdp.edu/scripts/prostudentdrivemap.bat",
+		"/Z/install-sublime-packages.bat",
+		"/M/install-sublime-packages/if-else.bat",
+		"/M/chill.bat",
+		"/S/Pro99/price-chart/server.js",
+		"/M/curriculum-development/17wi-cohort1-q3/NodeSchool/student-env/learnyouanode.sublime-workspace",
+		"/S/Pro99/price-chart/public/draw-chart.js",
+		"/S/Pro99/price-chart/public/index.html",
+		"/S/Pro99/price-chart/data/price-data.csv",
+		"/Z/assignments/price-chart/server.js",
+		"/Z/npm/express/index.js",
+		"/Z/demos/Q3/my-first-http-server.js",
+		"/Z/assignments/test-count.html",
+		"/S/Pro99/express-test.js",
+		"/Z/demos/Q3/template-strings.js",
+		"/S/Pro99/sync-vs-async.js",
+		"/S/Pro99/node-visit-counter/app.js",
+		"/M/xampp-5.6.24/htdocs/chrome-bug/bugs.chromium.org/p/chromium/issues/detail@id=39402.html",
+		"/Z/demos/Q3/node-visit-counter/app.js",
+		"/Z/demos/Q3/node-visit-counter/README.md",
+		"/S/Pro99/price-chart/data/price-array.json",
+		"/S/Pro99/pets-csv/pets-csv-to-json.js",
+		"/S/Pro99/pets-csv/data/pets.csv",
+		"/S/Pro99/pets-csv/pets.json",
+		"/Z/node-visit-counter/app.js",
+		"/S/Pro99/async-io-practice/async-io.js",
+		"/C/Users/farrowm/AppData/Roaming/Sublime Text 2/Packages/User/JavaScriptNext.sublime-settings",
+		"/C/Users/farrowm/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/S/Pro99/arrow-function-practice/arrow.js",
+		"/S/Pro99/synchronous-io-practice/sync-io.js",
+		"/S/Pro99/async-io-practice/dracula-summary.txt",
+		"/Z/demos/Q3/tue-jan-17/arrow-functions-demo.js",
+		"/Z/demos/Q3/tue-jan-17/arrow-functions-syntax.js",
+		"/Z/demos/Q3/tue-jan-17/arrow-functions-overview.js",
+		"/S/Pro99/price-chart/server-async.js",
+		"/M/curriculum-development/17wi-cohort1-q3/price-chart/server.js",
+		"/Z/assignments/synchronous-io-practice/sync-io.js",
+		"/M/grading/arrow-function-practice/arrow.js",
+		"/Z/demos/Q3/tue-jan-17/output.txt",
+		"/Z/demos/Q3/tue-jan-17/demo-jan-17.js",
+		"/Z/demos/Q3/word-frequencies/word-freq.js",
+		"/M/arrow-fn/StrongLoop _ An Introduction to JavaScript ES6 Arrow Functions.htm",
+		"/Z/demos/Q3/word-frequencies/output.txt",
+		"/M/assn-1-17-2017.txt",
+		"/M/assn-1-17-2017.tx",
+		"/Z/assignments/arrow-function-practice/arrow.js",
+		"/Z/assignments/async-io-practice/async-io.js",
+		"/Z/assignments/async-io-practice/dracula-summary.txt",
+		"/Z/assignments/arrow-function-practice/output.txt",
+		"/Z/demos/Q3/synchronous-io/file-io-sync.js",
+		"/Z/demos/Q3/summarize-books/Thumbs-summary.txt",
+		"/Z/demos/Q3/file-io-practice/dracula-summary.txt",
+		"/Z/demos/Q3/btc-price-index/prices.js",
+		"/Z/demos/Q3/csv-to-json/convert-csv-to-json.js",
+		"/Z/demos/Q3/file-io-practice/dracula-count.txt",
+		"/Z/demos/Q3/summarize-books/frankenstein-words.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"\\\\WIN-JOT78JNFLJN\\Pro\\mirrors\\developer.mozilla.org",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fran",
+			"frankenstein",
+			"﻿frank",
+			"﻿frankenstein",
+			"frank",
+			"﻿frankenstein",
+			"frankenstein",
+			"$.ajax",
+			"font",
+			"http://unloop.edu/",
+			"http://unloop.edu/books/",
+			"text",
+			"Medium",
+			"chris",
+			"true",
+			"files\\",
+			"C:\\",
+			";\n",
+			"https://developer.cdn.mozilla.net",
+			"\\c",
+			"\\o",
+			"\\b",
+			"\\5",
+			"\\I",
+			"\\2",
+			"W:\\image-bank\\",
+			"\\o",
+			"W:\\image-bank\\",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"http://developer.cdn.mozilla.net",
+			"\\\\c",
+			"\\\\o",
+			"\\\\b",
+			"\\\\5",
+			"\\\\I",
+			"\\\\2",
+			"",
+			"\\\\o",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "13-http-json-api-server.js",
+					"settings":
+					{
+						"buffer_size": 984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"quick",
+				"includes/quick-links.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true
+}

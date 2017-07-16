@@ -1,0 +1,16 @@
+html {
+	margin: 20px 15%;
+	background-color: darkslategray;
+}
+
+body {
+	background-color: lightgray;
+	text-align: center;
+	padding: 1em;
+	font-family: "Segoe UI", sans-serif;
+}
+
+img {
+	display: block;
+	margin: auto;
+}

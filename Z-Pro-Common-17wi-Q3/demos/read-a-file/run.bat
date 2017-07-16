@@ -1,0 +1,1 @@
+cmd /k Z:\software\nodejs\node.exe read-file.js

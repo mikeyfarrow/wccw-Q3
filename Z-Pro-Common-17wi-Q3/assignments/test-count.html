@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Test Visit Count</title>
+   <script src='http://unloop.edu/jquery-3.1.1.js'></script>
+   <script>
+   var url = 'http://127.0.0.1:3000';
+   $(document).ready(function() {
+      for (var i = 0; i < 10; i++) {
+         var iframe = $('<iframe>').attr('src', url);
+         $('<div>').addClass('iframe-container')
+            .append($('<button>').text('Reload').addClass('reload'))
+            .append(iframe)
+            .appendTo($('body'))
+      }
+      $('button.reload').click(function() {
+         $(this).parent().find('iframe').attr('src', url);
+      });
+      $('#all').click(function() {
+      	$('iframe').attr('src', url);
+      })
+   });
+   </script>
+   <style type="text/css">
+   	.iframe-container {
+   		position: relative;
+   		float: left;
+   	}
+   	.reload {
+   		position: absolute;
+   		top: 0;
+   		right: 0;
+   	}
+   </style>
+</head>
+
+<body>
+<div>
+<button id="all">Reload All</button></div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+Lab4 Bonus
+Write the SQL queries necessary to:
+
+- Make elmer a follower of daffy
+
+- Select all of bugs' tweets
+
+- Select the usernames of all the users that bugs follows
+
+- Select all the tweets made by users that elmer follows
+
+- Select all the tweets made by users that elmer follows
+  PLUS all of the tweets by elmer
+
+- Add a new user w/ a login and password of your choice
+
+- Add a tweet by that new user
+
+- Make bugs a follower of your new user

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fake Twitter</title>
+    <link rel="stylesheet" type="text/css" href="twitter.css">
+    <script src="http://unloop.edu/jquery-3.1.1.js"></script>
+    <script src="twitter-client.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Twitter</h1>
+        <span id="header_menu">
+          <a href="#" id="href_tweets">Tweets</a> |
+          <a href="#" id="href_feeds">Who to follow</a> |
+          <a href="#" id="href_logout">Sign out</a>
+        </span>
+    </div>
+
+    <div class="page" id="page_login">
+        <h1>Welcome to Twitter</h1>
+        <form id="form_login">
+            <table>
+                <tr>
+                    <td>
+                        <label for="login_login">Login ID:</label>
+                    </td>
+                    <td>
+                        <input name="login_login" id="login_login">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="login_passwd">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="login_passwd" id="login_passwd">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Log In</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="login_err"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">[<a href="#" id="href_register">Register as new user</a>]</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="page" id="page_register">
+        <h1>Sign up for Twitter</h1>
+        <form id="form_register">
+            <table>
+                <tr>
+                    <td>
+                        <label for="register_login">New Login ID:</label>
+                    </td>
+                    <td>
+                        <input name="register_login" id="register_login">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="register_passwd">New Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="register_passwd" id="register_passwd">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Register</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="register_err"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">[<a href="#" id="href_login">Log in as existing user</a>]</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="page" id="page_tweets">
+        <h1>The tweets</h1>
+        <form id="tweets_add">
+            <input id="tweets_text">
+            <button type="submit">Post</button>
+        </form>
+        
+        <p>[<a href="#" id="tweets_refresh">Refresh</a>]</p>
+        
+        <div id="tweets_err"></div>
+        <div id="tweets_list"></div>
+    </div>
+
+    <div class="page" id="page_feeds">
+        <h1>Who to follow</h1>
+        
+        <p>[<a href="#" id="feeds_refresh">Refresh</a>]</p>
+        
+        <div id="feeds_err"></div>
+        <table id="feeds_list"></table>
+    </div>
+    
+</body>
+
+</html>

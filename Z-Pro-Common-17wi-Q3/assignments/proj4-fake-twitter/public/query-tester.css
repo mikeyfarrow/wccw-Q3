@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 10px 10%;
+    font-family: Helvetica;
+}
+
+textarea {
+    height: 200px;
+    width: 80%;
+}
+
+button {
+	width: 18%;
+	margin: 0 1%;
+	float: right;
+}
+
+textarea,
+pre {
+    font-size: 1.5em;
+    font-family: Consolas;
+}
+
+.output-container {
+    margin: 1em 0;
+    background-color: lightgray;
+    padding: 1em;
+}

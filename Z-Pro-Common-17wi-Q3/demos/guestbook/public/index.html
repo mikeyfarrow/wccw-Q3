@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guestbook</title>
+</head>
+<body>
+	<h1>Guestbook</h1>
+
+	<form action="/add" method="POST">
+		Name: <input type='text' name='name'><br>
+		Rating: 1<input type='range' min='1' max='5' name='rating'>5<br>
+		Message:<br> <textarea rows='5' cols='20' name='message'></textarea><br>
+		<input type='submit'>
+	</form>
+</body>
+</html>

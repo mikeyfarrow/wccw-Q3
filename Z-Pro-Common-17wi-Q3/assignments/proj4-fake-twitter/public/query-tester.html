@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fake Twitter Query Tester</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="query-tester.css">
+    <script src="http://unloop.edu/jquery-3.1.1.js"></script>
+    <script src="query-tester-client.js"></script>
+</head>
+
+<body>
+    <h1>Fake Twitter: SQL Query Tester</h1>
+    <button id='run-btn'>Run Query</button>
+    <textarea id="sql-query">SELECT * FROM User;</textarea>
+
+    <div class="output-container">
+        <h2>Results</h2>
+        <pre id="output"></pre>
+        <table>
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
+
+</html>

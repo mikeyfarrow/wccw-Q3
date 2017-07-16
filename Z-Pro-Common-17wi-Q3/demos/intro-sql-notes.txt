@@ -1,0 +1,50 @@
+Tips for using Z:/sqlite.bat
+	- change mode and show headers:
+		.mode column
+		.headers on
+
+	- open an existing database:
+		.open /path/to/database.db
+
+	- list available tables:
+		.tables
+
+SQL is made up of two parts:
+   DDL: Data Definition Language
+   	- define structure of the data
+   	- creating tables and saying what goes in them
+
+   DML: Data Manipulation Language
+    - inserting, removing, updating data in tables
+    - SELECT statements to query data
+
+
+Each table has a "schema" that defines its structure.
+   What columns does the table have?
+   
+   What type of data is stored in each column?
+      - is it Text? Numbers? Etc.
+
+   Are there any other constraints on the data?
+      * must not be null?
+      * must be unique (like a movie's ID)?
+      * must match a column in some other table?
+         example: actor id appears in the actors table AND in the roles table
+
+PRIMARY KEY: a value/column that must be unique within a certain table
+
+FOREIGN KEY: a value/column that refers to a primary key from a different table
+
+Example of a schema:
+   CREATE TABLE Planet (
+      PlanetID INTEGER,
+      Name TEXT,
+      Coordinates REAL
+   );
+
+Or better yet:
+   CREATE TABLE Planet (
+      PlanetID INTEGER PRIMARY KEY NOT NULL,
+      Name TEXT NOT NULL,
+      Coordinates REAL NOT NULL
+   );

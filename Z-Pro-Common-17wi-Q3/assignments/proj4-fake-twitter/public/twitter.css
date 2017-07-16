@@ -1,0 +1,81 @@
+body {
+    margin: 0 10%;
+    padding: 0;
+}
+
+h1 {
+    color: #954c67;
+}
+
+a {
+    color: #800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div#header {
+    display: none;
+    height: 32px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0ex;
+    margin: 0ex;
+    background: #f8d;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #954c67;
+}
+
+div#header h1 {
+    float: left;
+    margin: 0;
+    padding: 2px 0 2px 10px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+div#header #header_menu {
+    float: right;
+    margin: 0;
+    padding: 10px 10px 5px 0;
+}
+
+div.page {
+    display: none;
+    margin: 34px 10px 10px 10px;
+}
+
+div.tweet {
+    margin-top: 0.5ex;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    padding: 1em 2em;
+}
+
+span.tweet_feed {
+    font-weight: bold;
+    margin-right: 1ex;
+}
+
+table#tweets_list td {
+    padding-right: 1ex;
+}
+
+table#feeds_list td {
+    cursor: pointer;
+}
+
+span.feed_status {
+    height: 0.5em;
+    width: 0.5em;
+    display: block;
+    padding-bottom: 2px;
+    border: 1px solid #954c67;
+}
+
+span.feed_sub {
+    background: #f8d;
+}
